@@ -11,7 +11,7 @@ import {
 
 export const ProfileInfoComponent = props => {
   const { children, className } = props;
-  const classes = classNames('credentials', 'vertical', className);
+  const classes = classNames('profile-info', 'vertical', className);
 
   return (
     <FlexBox className={classes} >
