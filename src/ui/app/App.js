@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
-import { Button, FlexBox, Form, Header, Input } from '../';
+import {
+  Button,
+  CredentialsComponent,
+  CheckoutComponent,
+  FlexBox,
+  Form,
+  Header,
+  HomeComponent,
+  Input,
+  ProfileInfoComponent,
+  UserAddressInfoComponent,
+} from '../';
 
 
 export class App extends Component {
   render() {
 
-
     return (
       <FlexBox className="app">
-        <Form>
-          <Header>Form: 1</Header>
-          <Input className="name" type="text" />
-          <Button>Save</Button>
-        </Form>
       </FlexBox>
     );
   }
