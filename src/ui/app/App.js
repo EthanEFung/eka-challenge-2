@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { FlexBox } from '../';
+import { FlexBox, Button } from '../';
+
 
 export class App extends Component {
   render() {
@@ -7,7 +8,7 @@ export class App extends Component {
 
     return (
       <FlexBox className="app">
-        Hello, you're learning!
+        <Button className="sign-up">Sign-Up</Button>
       </FlexBox>
     );
   }
