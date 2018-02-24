@@ -3,9 +3,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { FlexBox } from './ui'
+import { App } from './ui'
 
 ReactDOM.render(
-  <FlexBox>Hello, App</FlexBox>,
+  <App />,
   document.getElementById('root')
 );
