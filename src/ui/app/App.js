@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FlexBox, Button } from '../';
+import { Button, FlexBox, Input } from '../';
 
 
 export class App extends Component {
@@ -8,7 +8,7 @@ export class App extends Component {
 
     return (
       <FlexBox className="app">
-        <Button className="sign-up">Sign-Up</Button>
+        <Input className="first-name" />
       </FlexBox>
     );
   }

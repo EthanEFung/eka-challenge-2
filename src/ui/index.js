@@ -1,3 +1,3 @@
 export { App } from './app';
 
-export { Button, FlexBox } from './components';
+export { Button, FlexBox, Input } from './components';
