@@ -2,6 +2,13 @@
 import { connect } from 'react-redux';
 import { AppComponent } from './AppComponent';
 import { bindActionCreators } from 'redux';
+import {
+  renderLoadingPage,
+  postUser,
+  putCredentials,
+  putProfileInfo,
+  putUserAddressInfo
+} from '../../application';
 
 function mapStateToProps(state) {
   return ({
@@ -13,9 +20,12 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   const actions = {
-
-  };
-
+    renderLoadingPage,
+    postUser,
+    putCredentials,
+    putProfileInfo,
+    putUserAddressInfo
+  }
   return bindActionCreators(actions, dispatch);
 }
 
