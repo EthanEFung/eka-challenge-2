@@ -13,11 +13,11 @@ import {
 } from '../';
 
 
-export class App extends Component {
+export class AppComponent extends Component {
   render() {
-
     return (
       <FlexBox className="app">
+        Component
       </FlexBox>
     );
   }

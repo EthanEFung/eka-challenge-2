@@ -1,1 +1,2 @@
-export { App } from './App';
+export { AppComponent } from './AppComponent';
+export { AppContainer } from './AppContainer';

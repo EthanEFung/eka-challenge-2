@@ -1,4 +1,4 @@
-export { App } from './app';
+export { AppComponent, AppContainer } from './app';
 
 export { Button, FlexBox, Form, Header, Input } from './components';
 
