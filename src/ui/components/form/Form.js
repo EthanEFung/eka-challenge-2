@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import { FlexBox } from '../';
+import './Form.css';
 
 export const Form = props => {
   const { children, className } = props;
@@ -8,9 +9,7 @@ export const Form = props => {
 
   return (
     <form className={classes}>
-      <FlexBox className="vertical" >
-        {children}
-      </FlexBox>
+      {children}
     </form>
   );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import { FlexBox } from '../';
-
+import './Input.css';
 
 export const Input = props => {
   const { children, className, type, label, id } = props;
