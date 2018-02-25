@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon server/index.js",
-    "build": "webpack --watch"
+    "start": "node server/index.js",
+    "dev-server": "nodemon server/index.js",
+    "build": "webpack",
+    "dev-build": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -24,12 +26,15 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "bookshelf": "^0.12.1",
     "classnames": "^2.2.5",
     "css-loader": "^0.28.10",
     "dotenv": "^5.0.0",
     "express": "^4.16.2",
     "jest": "^22.4.2",
+    "knex": "^0.14.4",
     "nodemon": "^1.15.1",
+    "pg": "^7.4.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
