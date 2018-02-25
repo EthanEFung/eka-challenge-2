@@ -12,7 +12,7 @@ export const CheckoutComponent = props => {
   return (
     <FlexBox className={classes}>
       <p>Thank you!</p>
-      <p>You have successfully been onboarded.</p>
+      <p>You've been successfully onboarded.</p>
     </FlexBox>
   );
 };
