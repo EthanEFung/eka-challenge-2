@@ -1,1 +1,1 @@
-export { ProfileInfoComponent } from './ProfileInfoComponent';
+export { ProfileInfoContainer } from './ProfileInfoContainer';
