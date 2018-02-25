@@ -1,31 +1,33 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import {
   Button,
-  CredentialsComponent,
+  CredentialsContainer,
   CheckoutComponent,
   FlexBox,
   Form,
   Header,
-  HomeComponent,
+  HomeContainer,
   Input,
-  ProfileInfoComponent,
-  UserAddressInfoComponent,
+  ProfileInfoContainer,
+  UserAddressInfoContainer,
 } from '../';
+
+import './AppComponent.css';
 
 
 export class AppComponent extends Component {
   render() {
     return (
       <Router className="app">
-        <div>
-          <Route exact path="/" component={HomeComponent} />
-          <Route path="/form1" component={CredentialsComponent} />
-          <Route path="/form2" component={ProfileInfoComponent} />
-          <Route path="/form3" component={UserAddressInfoComponent} />
+        <Switch>
+          <Route exact path="/" component={HomeContainer} />
+          <Route path="/form1" component={CredentialsContainer} />
+          <Route path="/form2" component={ProfileInfoContainer} />
+          <Route path="/form3" component={UserAddressInfoContainer} />
           <Route path="/checkout" component={CheckoutComponent} />
-        </div>
+        </Switch>
       </Router>
     );
   }
