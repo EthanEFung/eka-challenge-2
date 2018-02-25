@@ -1,2 +1,2 @@
 
-export { UserAddressInfoComponent } from './UserAddressInfoComponent';
+export { UserAddressInfoContainer } from './UserAddressInfoContainer';
