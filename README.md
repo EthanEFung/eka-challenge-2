@@ -8,6 +8,7 @@ when necessary.
 From the command line run the following commands:
 
 ```
+npm install
 npm run build
 npm start
 ```
