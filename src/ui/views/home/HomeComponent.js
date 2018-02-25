@@ -4,15 +4,21 @@ import {
   FlexBox,
   Button
 } from '../../components';
+import { Link } from 'react-router-dom';
+import './HomeComponent.css';
 
 
 export const HomeComponent = props => {
-  const { className, children } = props;
+  const { className, children, postUser } = props;
   const classes = classNames('home', className);
 
   return (
     <FlexBox className={classes}>
-      <Button className="signup">Sign Up</Button>
+      <Link to="/form1">
+        <Button className="signup" onClick={postUser.bind(this)}>
+          Sign Up
+        </Button>
+      </Link>
     </FlexBox>
   );
 };
