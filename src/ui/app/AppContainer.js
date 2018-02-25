@@ -20,7 +20,6 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   const actions = {
-    renderLoadingPage,
     postUser,
     putCredentials,
     putProfileInfo,
@@ -29,4 +28,4 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators(actions, dispatch);
 }
 
-export const AppContainer = connect(mapStateToProps, mapDispatchToProps)(AppComponent)
+export const AppContainer = connect(mapStateToProps, mapDispatchToProps)(AppComponent);
