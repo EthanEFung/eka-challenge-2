@@ -1,1 +1,1 @@
-export { CredentialsComponent } from './CredentialsComponent'
+export { CredentialsContainer } from './CredentialsContainer';

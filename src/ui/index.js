@@ -4,8 +4,8 @@ export { Button, FlexBox, Form, Header, Input } from './components';
 
 export {
   CheckoutComponent,
-  CredentialsComponent,
-  HomeComponent,
-  ProfileInfoComponent,
-  UserAddressInfoComponent,
+  CredentialsContainer,
+  HomeContainer,
+  ProfileInfoContainer,
+  UserAddressInfoContainer,
 } from './views';

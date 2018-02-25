@@ -1,5 +1,5 @@
 export { CheckoutComponent } from './checkout'
-export { CredentialsComponent } from './credentials';
-export { HomeComponent } from './home';
-export { ProfileInfoComponent } from './profile-info';
-export { UserAddressInfoComponent } from './user-address-info';
+export { CredentialsContainer } from './credentials';
+export { HomeContainer } from './home';
+export { ProfileInfoContainer } from './profile-info';
+export { UserAddressInfoContainer } from './user-address-info';
